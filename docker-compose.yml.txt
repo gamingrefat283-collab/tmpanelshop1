@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  telegram-bot:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - BOT_TOKEN=7767040819:AAFzYGSxViUbsgg06fY1yW7N2Nhszu8wujs
+      - WEBHOOK_URL=https://tmpanelshop.onrender.com
